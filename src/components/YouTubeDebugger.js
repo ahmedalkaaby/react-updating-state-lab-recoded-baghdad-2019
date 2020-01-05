@@ -27,8 +27,8 @@ this.setState({
 
 render(){
   return(
-    <button onClick={this.bitrateClick}>Change Bitrate</button>
-    <button onClick={this.resolutionClick}>Change Resolution</button>
+    <button className="bitrate"  onClick={this.bitrateClick}>Change Bitrate</button>
+    <button className="resolution" onClick={this.resolutionClick}>Change Resolution</button>
   )
 }
 }
